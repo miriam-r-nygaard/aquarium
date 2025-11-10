@@ -1,5 +1,5 @@
 html, body{
-	height:250vh;
+	height: fit-content;
 	background: linear-gradient(#A2BFEB 0%, #315B9A 77%);
 	position:relative;
   overflow: hidden; /* disables scroll */
