@@ -1,8 +1,12 @@
 // --- Trash data ---
+
+//Intro lyd/loop der siger:: Mini helt, hjælp mig, jeg har brug for din hjælp!
+//Yes, så kører vi, det tager kun 2minutter men du redder nutte!
+
 const trashData = [
-  { img: "../assets/svg/cykel.svg", name: "cykel" },
-  { img: "../assets/svg/gummistoevle.svg", name: "Gummistøvler" },
-  { img: "../assets/svg/flaske.svg", name: "Flaske" },
+  { img: "./assets/svg/cykel.svg", name: "cykel", audio:"./assets/audio/fart.mp3"},
+  { img: "./assets/svg/gummistoevle.svg", name: "Gummistøvler", audio:"./assets/audio/fart.mp3"},
+  { img: "./assets/svg/flaske.svg", name: "Flaske", audio:"./assets/audio/fart.mp3"},
 ];
 
 const itemsContainer = document.querySelector(".items");
@@ -109,7 +113,9 @@ function deliverTrash(trash, index) {
     console.log(`✅ Delivered the ${trashData[index].name} correctly!`);
     nextIndex++;
     if (nextIndex < trashData.length) {
+      console.log('yoyo')
       console.log(`👉 Next: collect the ${trashData[nextIndex].name}`);
+      new Audio(trashData[nextIndex].audio).play()
     } else {
       finishGame();
     }
