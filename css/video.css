@@ -1,0 +1,150 @@
+/* ---------------------------------------------------------
+   Root-variabler
+   - px: billedstørrelser, offsets
+   - farver + font
+--------------------------------------------------------- */
+:root {
+  /* Farver */
+  --ocean-top: #a2bfeb;
+  --ocean-bottom: #315b9a;
+}
+
+/* ---------------------------------------------------------
+   Global reset
+--------------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-body);
+}
+
+/* ---------------------------------------------------------
+   Scene
+--------------------------------------------------------- */
+.scene {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: linear-gradient(var(--ocean-top), var(--ocean-bottom));
+}
+
+/* ---------------------------------------------------------
+  Baggrund
+--------------------------------------------------------- */
+.bg {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: 100% 100%;
+  background-position: center;
+  display: flex;
+  justify-content: center top;
+  align-items: center;
+  background: url("../assets/svg/bg-rev.svg");
+  /*background-repeat: repeat-x;*/
+  animation: animateBg 60s linear infinite;
+}
+
+/* Flytter hele baggrunden en view-port til venstre*/
+@keyframes animateBg {
+  0% {
+    background-position-x: 0;
+  }
+  10% {
+    background-position-x: -100vw;
+  }
+  20% {
+    background-position-x: -100vw;
+  }
+  30% {
+    background-position-x: -100vw;
+  }
+  40% {
+    background-position-x: -100vw;
+  }
+  50% {
+    background-position-x: -100vw;
+  }
+  60% {
+    background-position-x: -100vw;
+  }
+  70% {
+    background-position-x: -100vw;
+  }
+  80% {
+    background-position-x: -100vw;
+  }
+  90% {
+    background-position-x: -100vw;
+  }
+  100% {
+    background-position-x: -100vw;
+  }
+}
+
+.bg-rev {
+  z-index: 0;
+}
+
+.melgr-sand {
+  z-index: 1;
+}
+
+.forgr-rev {
+  z-index: 2;
+}
+
+.forgr-sand {
+  z-index: 3;
+}
+
+.forgr-sten {
+  z-index: 4;
+}
+
+/* ---------------------------------------------------------
+  Fisk
+--------------------------------------------------------- */
+.fish {
+  position: relative;
+}
+.nutte {
+  position: absolute;
+  z-index: 10;
+  animation: nutteani 60s infinite;
+}
+
+@keyframes nutteani {
+  0% {
+    top: 10px;
+    right: 20px;
+  }
+  10% {
+  }
+  20% {
+  }
+  30% {
+  }
+  40% {
+    top: 50vh;
+    right: 50vw;
+  }
+  50% {
+  }
+  60% {
+  }
+  70% {
+  }
+  80% {
+  }
+  90% {
+  }
+  100% {
+    bottom: 10px;
+    left: 20px;
+  }
+}
