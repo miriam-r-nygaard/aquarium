@@ -45,8 +45,12 @@
   justify-content: center top;
   align-items: center;
   background: url("../assets/svg/bg-rev.svg");
-  /*background-repeat: repeat-x;*/
+  background-repeat: repeat-x;
   animation: animateBg 60s linear infinite;
+}
+
+.bg img {
+  position: absolute;
 }
 
 /* Flytter hele baggrunden en view-port til venstre*/
@@ -88,18 +92,25 @@
 
 .bg-rev {
   z-index: 0;
+  background: cover;
 }
 
 .melgr-sand {
   z-index: 1;
+  width: 100%;
+  bottom: -50px;
+  right: -30px;
 }
 
 .forgr-rev {
   z-index: 2;
+  left: -30px;
+  bottom: -10px;
 }
 
 .forgr-sand {
   z-index: 3;
+  bottom: -50px;
 }
 
 .forgr-sten {
@@ -146,5 +157,20 @@
   100% {
     bottom: 10px;
     left: 20px;
+  }
+}
+
+.fisk {
+  position: absolute;
+  will-change: transform;
+  animation: fisk 10s linear infinite;
+}
+
+@keyframes fisk {
+  0% {
+    transform: translateX(0) rotateY(180deg);
+  }
+  100% {
+    transform: translateX(200px) rotateY(180deg);
   }
 }
