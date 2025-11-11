@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Londrina+Solid:wght@100;300;400;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("./controllers.css");
 
 :root {
   --duration: 120s;
@@ -24,6 +25,29 @@ body {
   height: auto;
   bottom: 0;
   left: 0;
+}
+.paused{
+  animation-play-state: paused;
+
+}
+
+.running{
+  animation-play-state: running;
+}
+
+.timeline{
+    top: 10vh;
+    position: absolute;
+    color: #fff;
+    font-size: 36px;
+    font-family: "Londrina Solid", sans-serif;
+}
+
+.controllers{
+  position: absolute;
+  top:4vh;
+  right: 4vw;
+
 }
 
 /* Background reef fades in slowly */
@@ -70,6 +94,7 @@ body {
   width: 120px;
  /* animation: float var(--duration) ease-in-out forwards;
   animation-delay: 60s;*/
+  
 }
 
 .nutte.zoomin, .nutte{
@@ -99,8 +124,7 @@ body {
   100% { opacity: 1; }
 }
 
-.scene::after {
-  content: "";
+.sceneProgress {
   position: absolute;
   bottom: 10px;
   left: 5%;
