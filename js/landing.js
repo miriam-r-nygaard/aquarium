@@ -8,7 +8,7 @@ const seaInfo = [
     age: "~1 milliard år",
     funFact: "Vandmænd er nogle af de ældste dyr på Jorden! De har ingen hjerne eller hjerte – kun vand og gelé.",
     uniqueThing: "Kan lyse i mørket som et undervands-spøgelse 👻",
-    soundSrc: "sounds/vandmand.mp3",
+    soundSrc: "sounds/jegervandmand.mp3",
     image:"./assets/svg/hjaelpfisk.svg",
     soundLine: "Heeej, jeg er en vandmand! Jeg danser som gelé gennem havet og kan lyse i mørket!",
   },
@@ -27,7 +27,7 @@ const seaInfo = [
     age: "~540 mio. år",
     funFact: "Søanemonen ligner en blomst, men den er faktisk et rovdyr med fangarme, der fanger små fisk!",
     uniqueThing: "Har usynlige superklæbrige arme 🦸‍♀️",
-    soundSrc: "sounds/soeanemone.mp3",
+    soundSrc: "sounds/jegerensoeanemone.mp3",
     soundLine: "Se mine seje arme! De er usynlige – og superklæbrige!",
   },
   {
@@ -36,7 +36,7 @@ const seaInfo = [
     age: "~450 mio. år",
     funFact: "Hajer har eksisteret længere end dinosaurerne og har et super-skarpt sanseapparat!",
     uniqueThing: "Kan lugte én dråbe blod i et helt svømmebassin 🩸",
-    soundSrc: "sounds/haj.mp3",
+    soundSrc: "sounds/jegerenhaj.mp3",
     soundLine: "Jeg er hajen! Havets superhelt – jeg kan lugte alt og svømmer som lynet!",
   },
   {
@@ -45,7 +45,7 @@ const seaInfo = [
     age: "~200 mio. år",
     funFact: "Krabber går sidelæns, men de er lynhurtige, når de ser mad – eller farer!",
     uniqueThing: "Er mester i at breakdance 🕺 (sidelæns!)",
-    soundSrc: "sounds/krabbe.mp3",
+    soundSrc: "sounds/jegerenkrabbe.mp3",
     soundLine: "Klik klik! Jeg går sidelæns som en dansemaskine – pas på mine klør!",
   },
   {
@@ -54,7 +54,7 @@ const seaInfo = [
     age: "~150 mio. år",
     funFact: "De første fisk, der lignede moderne fisk – de fik finner, skæl og begyndte at svømme hurtigt!",
     uniqueThing: "Havets oldefar med turbo-finner 🧓💨",
-    soundSrc: "sounds/urfisk.mp3",
+    soundSrc: "sounds/jegerenurfisk.mp3",
     soundLine: "Jeg er urfisken! Den første med turbo-finner – uden mig, ingen Nemo!",
   },
   {
@@ -63,7 +63,7 @@ const seaInfo = [
     age: "~80 mio. år",
     funFact: "Når den bliver bange, puster den sig op som en ballon fuld af pigge!",
     uniqueThing: "Kan blive dobbelt så stor på ét sekund 🎈",
-    soundSrc: "sounds/pindsvinefisk.mp3",
+    soundSrc: "sounds/jegerenpindsvinefisk.mp3",
     soundLine: "Pffffft! Jeg puster mig op som en ballon – ingen tør røre mig!",
   },
   {
@@ -72,7 +72,7 @@ const seaInfo = [
     age: "~50 mio. år",
     funFact: "Tunen er havets fartdjævel! Den kan svømme hurtigere end en bil i byen!",
     uniqueThing: "Kan slå delfiner i kapløb 🏁",
-    soundSrc: "sounds/tun.mp3",
+    soundSrc: "sounds/jegerentun.mp3",
     soundLine: "Wrooom! Jeg er tunfisken – havets raket! Ingen fanger mig!",
   },
   {
@@ -81,7 +81,7 @@ const seaInfo = [
     age: "~50 mio. år",
     funFact: "Klovnefisk lever i søanemoner og bliver ikke brændt af dem. Dory glemmer alt, men er altid glad!",
     uniqueThing: "Klovnefisk kan skifte køn, og Dory kan tale hvalsprog 🐋",
-    soundSrc: "sounds/klovnefisk.mp3",
+    soundSrc: "sounds/jegerenklovnefisk.mp3",
     soundLine: "Hej, jeg er Nemo! Og jeg er Dory! … øh, hvad snakkede vi om igen?",
   },{
   className: "sea10",
@@ -89,7 +89,7 @@ const seaInfo = [
   age: "~50 mio. år",
   funFact: "Dannebrogsrejen har røde og hvide striber – ligesom det danske flag! Den hjælper andre fisk ved at rense dem for snavs og parasitter.",
   uniqueThing: "Er havets frisør 💇‍♂️ – og Danmarks mest patriotiske reje 🇩🇰",
-  soundSrc: "sounds/dannebrogsreje.mp3",
+  soundSrc: "sounds/jegerenreje.mp3",
   soundLine: "Hejsa! Jeg er Dannebrogsrejen – jeg gør fiskene rene og bærer farverne fra Dannebrog med stolthed!",
 },
  {
