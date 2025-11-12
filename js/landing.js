@@ -88,7 +88,8 @@ const seaInfo = [
     age: "~50 mio. år",
     funFact: "Klovnefisk lever i søanemoner og bliver ikke brændt af dem.",
     uniqueThing: "Klovnefisk kan skifte køn! ♀️➡️♂️",
-    soundSrc: "../assets/audio/klovnefisk.mp3",
+    soundSrc: "../assets/audio/jegerenklovnefisk.mp3",
+    
     image:"../assets/svg/nemo.svg",
     soundLine: "Hej, jeg er Nemo! Og min bedste ven finder du her i havet sammen med mig, nemlig Dory!",
   },
@@ -98,7 +99,7 @@ const seaInfo = [
     age: "~50 mio. år",
     funFact: "Dory glemmer alt, men er altid glad!",
     uniqueThing: "Dory kan tale hvalsprog 🐋🐟💭",
-    soundSrc: "../assets/audio/dory.mp3",
+    soundSrc: "../assets/audio/jegerenklovnefisk.mp3",
     image:"../assets/svg/kirugfisk.svg",
     soundLine: "Hej, jeg er Dory! Hvad var det nu, jeg skulle sige? Åh ja - bare svømme, bare svømme, bare svømme!",
   },
@@ -171,7 +172,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 
-      const intro = new Audio('../assets/svg/sevideooglaer.mp3')
+      const intro = new Audio('../assets/audio/balladeIHavet.mp3')
       intro.play()
 
 
@@ -219,7 +220,7 @@ function swapImages() {
 
 if (nutte) {
   nutte.addEventListener("click", () => {
-    const soundNutte = new Audio("../assets/audio/balladeIHavet.mp3");
+    const soundNutte = new Audio("./assets/audio/vilduspillemedmig.mp3");
     swapImages();
     console.log('nutte')
     soundNutte.play();
@@ -227,7 +228,7 @@ if (nutte) {
 }
 
 if (vandmand) {
-  const soundVandmand = new Audio("../assets/audio/sevideooglaer.mp3");
+  const soundVandmand = new Audio("./assets/audio/sevideooglaer.mp3");
   vandmand.addEventListener("click", () => {
     swapImages();
     console.log('vandmand')

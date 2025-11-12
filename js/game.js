@@ -4,8 +4,8 @@
 //Yes, så kører vi, det tager kun 2minutter men du redder nutte!
 
 const trashData = [
-  { img: "./assets/svg/cykelhjul.svg", name: "Cykelhjul", audio:"../assets/audio/findcykelhjulet.mp3"},
-  { img: "./assets/svg/gummistoevle.svg", name: "Gummistøvler", audio:"./assets/audio/findgummistoevle.mp3"},
+  { img: "./assets/svg/cykelhjul.svg", name: "Cykelhjul", audio:"./assets/audio/findcykelhjulet.mp3"},
+  { img: "./assets/svg/gummistoevle.svg", name: "Gummistøvler", audio:"./assets/audio/findgummistoevlen.mp3"},
   { img: "./assets/svg/flaske.svg", name: "Glas Flaske", audio:"./assets/audio/findpantflaske.mp3"},
   { img: "./assets/svg/can.svg", name: "Metal dåse", audio:"./assets/audio/findmetalcan.mp3"},
 ];
