@@ -3,7 +3,7 @@
 // 🪸 Array med alle fiskene fra dit info-board
 const seaInfo = [
   {
-    className: "sea1",
+    className: "vandmand",
     animalName: "Vandmand",
     age: "~1 milliard år",
     funFact: "Vandmænd er nogle af de ældste dyr på Jorden! De har ingen hjerne eller hjerte – kun vand og gelé.",
