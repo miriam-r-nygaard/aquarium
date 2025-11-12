@@ -77,13 +77,24 @@ const seaInfo = [
   },
   {
     className: "klovnefisk-slide",
-    animalName: "Klovnefisk & Dory",
+    animalName: "Nemo",
     age: "~50 mio. år",
-    funFact: "Klovnefisk lever i søanemoner og bliver ikke brændt af dem. Dory glemmer alt, men er altid glad!",
-    uniqueThing: "Klovnefisk kan skifte køn, og Dory kan tale hvalsprog 🐋",
-    soundSrc: "sounds/jegerenklovnefisk.mp3",
-    soundLine: "Hej, jeg er Nemo! Og jeg er Dory! … øh, hvad snakkede vi om igen?",
-  },{
+    funFact: "Klovnefisk lever i søanemoner og bliver ikke brændt af dem.",
+    uniqueThing: "Klovnefisk kan skifte køn! ♀️➡️♂️",
+    soundSrc: "sounds/klovnefisk.mp3",
+    soundLine: "Hej, jeg er Nemo! Og min bedste ven finder du her i havet sammen med mig, nemlig Dory!",
+  },
+  {
+    className: "dory-slide",
+    animalName: "Dory",
+    age: "~50 mio. år",
+    funFact: "Dory glemmer alt, men er altid glad!",
+    uniqueThing: "Dory kan tale hvalsprog 🐋🐟💭",
+    soundSrc: "sounds/dory.mp3",
+    soundLine: "Hej, jeg er Dory! Hvad var det nu, jeg skulle sige? Åh ja – bare svømme, bare svømme, bare svømme!",
+  }
+  
+  {
   className: "dannebrogsreje-slide",
   animalName: "Dannebrogsreje",
   age: "~50 mio. år",
@@ -103,21 +114,21 @@ const seaInfo = [
   },
   {
     className: "daase-slide",
-    animalName: "Sodavandsdåse",
+    animalName: "Dåse",
     age: "Flyder i havet i op til 200 år!",
     funFact: "Aluminium kan genbruges uendeligt mange gange, men i havet gør den skade på dyr og koraller.",
     uniqueThing: "Kan forvandles til en cykel, hvis den bliver genbrugt 🚴‍♂️",
     soundSrc: "sounds/daase.mp3",
-    soundLine: "Jeg er en sodavandsdåse – genbrug mig, så jeg kan blive til noget nyt og fedt!",
+    soundLine: "Jeg er en dåse – genbrug mig, så jeg kan blive til noget nyt og fedt!",
   },
   {
   className: "cykel-slide",
-  animalName: "Cykel",
+  animalName: "Cykelhjul",
   age: "Mistet for mange år siden",
   funFact: "Nogle cykler ender i havet, når folk smider dem væk. De ruster langsomt og bliver dækket af tang og snegle!",
   uniqueThing: "Er blevet et undervandshotel for smådyr 🏨🐚",
   soundSrc: "sounds/cykel.mp3",
-  soundLine: "Ring ring! Jeg er en glemt cykel på bunden af havet – vil du hjælpe mig tilbage på land?",
+  soundLine: "Ring ring! Jeg er et ensomt cykelhjul på bunden af havet – vil du hjælpe mig tilbage på land?",
 },
 
 ];
