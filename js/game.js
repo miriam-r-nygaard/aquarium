@@ -45,6 +45,8 @@ document.body.addEventListener("scroll", () => {
 
 // --- Setup game ---
 function setupGame() {
+   const intro = new Audio('../assets/audio/balladeIHavet.mp3')
+      intro.play()
   itemsContainer.innerHTML = "";
   document.querySelectorAll(".trash, .finish-message, .fish").forEach((el) => el.remove());
 

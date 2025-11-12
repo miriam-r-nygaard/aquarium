@@ -172,8 +172,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 
-      const intro = new Audio('../assets/audio/balladeIHavet.mp3')
-      intro.play()
+     
 
 
   // 🎣 Tilføj tooltip + lyd på hover / click
