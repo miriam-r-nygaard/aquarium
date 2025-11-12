@@ -3,7 +3,7 @@
 // 🪸 Array med alle fiskene fra dit info-board
 const seaInfo = [
   {
-    className: "vandmand",
+    className: "vandmand-slide",
     animalName: "Vandmand",
     age: "~1 milliard år",
     funFact: "Vandmænd er nogle af de ældste dyr på Jorden! De har ingen hjerne eller hjerte – kun vand og gelé.",
@@ -13,7 +13,7 @@ const seaInfo = [
     soundLine: "Heeej, jeg er en vandmand! Jeg danser som gelé gennem havet og kan lyse i mørket!",
   },
   {
-    className: "sea2",
+    className: "corals-slide",
     animalName: "Koraller og Svampe",
     age: "~600 mio. år",
     funFact: "Koraller og svampe var nogle af de første til at bygge undervandsbyer for fisk og smådyr.",
@@ -22,7 +22,7 @@ const seaInfo = [
     soundLine: "Velkommen til min koralby! Jeg bygger hjem til alle havets dyr!",
   },
   {
-    className: "sea3",
+    className: "sea-urchin-slide",
     animalName: "Søanemone",
     age: "~540 mio. år",
     funFact: "Søanemonen ligner en blomst, men den er faktisk et rovdyr med fangarme, der fanger små fisk!",
@@ -31,7 +31,7 @@ const seaInfo = [
     soundLine: "Se mine seje arme! De er usynlige – og superklæbrige!",
   },
   {
-    className: "sea4",
+    className: "shark-slide",
     animalName: "Haj",
     age: "~450 mio. år",
     funFact: "Hajer har eksisteret længere end dinosaurerne og har et super-skarpt sanseapparat!",
@@ -40,7 +40,7 @@ const seaInfo = [
     soundLine: "Jeg er hajen! Havets superhelt – jeg kan lugte alt og svømmer som lynet!",
   },
   {
-    className: "sea5",
+    className: "crab-slide",
     animalName: "Krabbe",
     age: "~200 mio. år",
     funFact: "Krabber går sidelæns, men de er lynhurtige, når de ser mad – eller farer!",
@@ -49,7 +49,7 @@ const seaInfo = [
     soundLine: "Klik klik! Jeg går sidelæns som en dansemaskine – pas på mine klør!",
   },
   {
-    className: "sea6",
+    className: "urfisk-slide",
     animalName: "Urfisk",
     age: "~150 mio. år",
     funFact: "De første fisk, der lignede moderne fisk – de fik finner, skæl og begyndte at svømme hurtigt!",
@@ -58,7 +58,7 @@ const seaInfo = [
     soundLine: "Jeg er urfisken! Den første med turbo-finner – uden mig, ingen Nemo!",
   },
   {
-    className: "sea7",
+    className: "nutte-puff-slide",
     animalName: "Pindsvinefisk",
     age: "~80 mio. år",
     funFact: "Når den bliver bange, puster den sig op som en ballon fuld af pigge!",
@@ -67,7 +67,7 @@ const seaInfo = [
     soundLine: "Pffffft! Jeg puster mig op som en ballon – ingen tør røre mig!",
   },
   {
-    className: "sea8",
+    className: "tun-slide",
     animalName: "Tun",
     age: "~50 mio. år",
     funFact: "Tunen er havets fartdjævel! Den kan svømme hurtigere end en bil i byen!",
@@ -76,7 +76,7 @@ const seaInfo = [
     soundLine: "Wrooom! Jeg er tunfisken – havets raket! Ingen fanger mig!",
   },
   {
-    className: "sea9",
+    className: "klovnefisk-slide",
     animalName: "Klovnefisk & Dory",
     age: "~50 mio. år",
     funFact: "Klovnefisk lever i søanemoner og bliver ikke brændt af dem. Dory glemmer alt, men er altid glad!",
@@ -84,7 +84,7 @@ const seaInfo = [
     soundSrc: "sounds/klovnefisk.mp3",
     soundLine: "Hej, jeg er Nemo! Og jeg er Dory! … øh, hvad snakkede vi om igen?",
   },{
-  className: "sea10",
+  className: "dannebrogsreje-slide",
   animalName: "Dannebrogsreje",
   age: "~50 mio. år",
   funFact: "Dannebrogsrejen har røde og hvide striber – ligesom det danske flag! Den hjælper andre fisk ved at rense dem for snavs og parasitter.",
@@ -93,7 +93,7 @@ const seaInfo = [
   soundLine: "Hejsa! Jeg er Dannebrogsrejen – jeg gør fiskene rene og bærer farverne fra Dannebrog med stolthed!",
 },
  {
-    className: "trash1",
+    className: "gummistoevle-slide",
     animalName: "Gummistøvle",
     age: "Fundet i havet for nylig",
     funFact: "En glemt gummistøvle kan flyde rundt i havet i mange år. Nogle fisk prøver endda at gemme sig i den!",
@@ -102,7 +102,7 @@ const seaInfo = [
     soundLine: "Ups! Jeg burde være på land – hjælp mig tilbage, før jeg bliver et krabbehjem!",
   },
   {
-    className: "trash2",
+    className: "daase-slide",
     animalName: "Sodavandsdåse",
     age: "Flyder i havet i op til 200 år!",
     funFact: "Aluminium kan genbruges uendeligt mange gange, men i havet gør den skade på dyr og koraller.",
@@ -111,16 +111,7 @@ const seaInfo = [
     soundLine: "Jeg er en sodavandsdåse – genbrug mig, så jeg kan blive til noget nyt og fedt!",
   },
   {
-    className: "trash3",
-    animalName: "Plastikpose",
-    age: "Over 500 år i naturen!",
-    funFact: "Havskildpadder tror ofte, jeg er en vandmand – og det kan gå galt, hvis de spiser mig!",
-    uniqueThing: "Kan blive til en t-shirt, hvis jeg bliver genbrugt 👕",
-    soundSrc: "sounds/plastikpose.mp3",
-    soundLine: "Hej, jeg er en plastikpose! Jeg vil meget hellere være genbrugt end flyde i havet!",
-  },
-  {
-  className: "trash4",
+  className: "cykel-slide",
   animalName: "Cykel",
   age: "Mistet for mange år siden",
   funFact: "Nogle cykler ender i havet, når folk smider dem væk. De ruster langsomt og bliver dækket af tang og snegle!",
