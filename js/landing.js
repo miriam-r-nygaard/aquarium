@@ -5,7 +5,7 @@ const seaInfo = [
   {
     className: "vandmand-slide",
     animalName: "Vandmand",
-    age: "~1 milliard år",
+    age: "~600 mio. år",
     funFact: "Vandmænd er nogle af de ældste dyr på Jorden! De har ingen hjerne eller hjerte - kun vand og gelé.",
     uniqueThing: "Kan lyse i mørket som et undervands-spøgelse 👻",
     soundSrc: "sounds/jegervandmand.mp3",
@@ -15,7 +15,7 @@ const seaInfo = [
   {
     className: "corals-slide",
     animalName: "Koraller og Svampe",
-    age: "~600 mio. år",
+    age: "~540 mio. år",
     funFact: "Koraller og svampe var nogle af de første til at bygge undervandsbyer for fisk og smådyr.",
     uniqueThing: "Er havets arkitekter 🏗️ - de bygger hele koralbyer!",
     soundSrc: "sounds/koraller.mp3",
@@ -94,10 +94,13 @@ const seaInfo = [
     soundLine: "Hej, jeg er Dory! Hvad var det nu, jeg skulle sige? Åh ja - bare svømme, bare svømme, bare svømme!",
   }
   
+
+
+  
   {
   className: "dannebrogsreje-slide",
   animalName: "Dannebrogsreje",
-  age: "~50 mio. år",
+  age: "~10 mio. år",
   funFact: "Dannebrogsrejen har røde og hvide striber - ligesom det danske flag! Den hjælper andre fisk ved at rense dem for snavs og parasitter.",
   uniqueThing: "Er havets frisør 💇‍♂️ . og Danmarks mest patriotiske reje 🇩🇰",
   soundSrc: "sounds/jegerenreje.mp3",
