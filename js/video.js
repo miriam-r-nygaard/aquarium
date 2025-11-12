@@ -46,7 +46,6 @@ listerner til lyd
 const vandmandFisk = document.getElementById("vandMand");
 //haj
 const hajFisk = document.getElementById("haj");
-const hajContainer = document.querySelector(".haj-container");
 //krabbe
 const krabbeFisk = document.getElementById("krabbe");
 //pudserfisk
@@ -122,12 +121,6 @@ if (vandmandFisk) {
 //haj
 if (hajFisk) {
   hajFisk.addEventListener("click", () => {
-    soundHajFisk.play();
-  });
-}
-
-if (hajContainer) {
-  hajContainer.addEventListener("click", () => {
     soundHajFisk.play();
   });
 }
@@ -219,6 +212,7 @@ if (rævefjæsFisk2) {
     soundRævefjæsFisk2.play();
   });
 }
+/*
 document.querySelector('.lucide-stop').addEventListener('click', () => {
   const scene = document.querySelector('.scene');
   console.log('running lucideBtn stop');
@@ -237,3 +231,4 @@ document.querySelector('.lucide-stop').addEventListener('click', () => {
   // void scene.offsetWidth; // trigger reflow
   // scene.classList.add('running');
 });
+*/
