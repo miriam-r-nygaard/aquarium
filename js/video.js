@@ -97,19 +97,19 @@ const soundTunFisk = new Audio();
 soundTunFisk.src = "./assets/audio/jegerentun.mp3";
 //klovnfisk
 const soundNemoFisk = new Audio();
-soundNemoFisk.src = "./assets/audio/jegerenklovnefisk.mp3";
+soundNemoFisk.src = "./assets/audio/jegerenklovnfisk.mp3";
 
-const soundKlovneFisk = new Audio();
-soundKlovneFisk.src = "./assets/audio/jegerenklovnefisk.mp3";
+const soundKlovnFisk = new Audio();
+soundKlovnFisk.src = "./assets/audio/jegerenklovnfisk.mp3";
 //Kirugfisk
 const soundKirugFisk = new Audio();
-soundKirugFisk.src = "./assets/audio/jegerenklovnefisk.mp3";
+soundKirugFisk.src = "./assets/audio/jegerenkirugfisk.mp3";
 //Rævefjæs
 const soundRævefjæsFisk = new Audio();
-soundRævefjæsFisk.src = "./assets/audio/jegerenklovnefisk.mp3";
+soundRævefjæsFisk.src = "./assets/audio/jegerenkirugfisk.mp3";
 
 const soundRævefjæsFisk2 = new Audio();
-soundRævefjæsFisk2.src = "./assets/audio/jegerenklovnefisk.mp3";
+soundRævefjæsFisk2.src = "./assets/audio/jegerenkirugfisk.mp3";
 
 //sætter lyttere på så den afspiller ved klick
 //vandmand
