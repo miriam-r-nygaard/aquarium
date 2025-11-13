@@ -1,9 +1,9 @@
 @import url("./controllers.css");
 
-/* layout variables - tweak these to lift sand/sten up or down */
+
 :root {
-  --sten-lift: -250px; /* move stones up 18px by default */
-  --sand-lift: -247px; /* move sand up 12px by default */
+  --sten-lift: -250px; 
+  --sand-lift: -247px; 
 }
 
 html, body{
@@ -78,7 +78,7 @@ html, body{
 }
 
 .fish {
-  position: absolute; /* make sure the element can move */
+  position: absolute; 
   animation: swimFish 14s linear infinite;
 
 }
